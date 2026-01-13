@@ -49,12 +49,12 @@ const PreviewCard: React.FC<PreviewCardProps> = ({ config, t }) => {
       <div className="space-y-2 mt-2">
         <div className="flex justify-between items-center text-xs font-semibold text-stone-500 uppercase tracking-wide">
             <span className="flex items-center gap-1"><MonitorPlay size={12}/> {t.test}</span>
-            <span>{Math.round(testPercent * 100)}%</span>
+            <span>{Math.min(Math.round(testPercent * 100), 100)}%</span>
         </div>
         <input 
             type="range"
             min="0"
-            max="1.1" // Go a bit over 1 to test full completion easily
+            max="1"
             step="0.01"
             value={testPercent}
             onChange={(e) => setTestPercent(parseFloat(e.target.value))}

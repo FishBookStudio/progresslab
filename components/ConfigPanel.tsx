@@ -166,7 +166,7 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({ config, onChange, t }) => {
         <div className="space-y-2">
             <div className="flex justify-between">
                 <label className="text-sm font-semibold text-stone-700">{t.width}</label>
-                <span className="text-sm font-mono text-stone-500 bg-stone-100 px-2 rounded">{config.width} chars</span>
+                <span className="text-sm font-mono text-stone-500 bg-stone-100 px-2 rounded">{config.width} 字符</span>
             </div>
             <input 
                 type="range" 

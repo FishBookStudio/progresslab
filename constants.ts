@@ -127,10 +127,10 @@ export const TRANSLATIONS: Record<'en' | 'zh', Translation> = {
     config: {
       title: "配置参数",
       dbProps: "数据库属性",
-      currentProp: "当前值属性名",
-      targetProp: "目标值/总数属性名",
+      currentProp: "分子名",
+      targetProp: "分母名",
       quickStyles: "快速样式",
-      fineTuning: "细节微调",
+      fineTuning: "样式",
       colors: "配色设置",
       textColor: "文字颜色",
       bgColor: "背景颜色",
@@ -140,7 +140,7 @@ export const TRANSLATIONS: Record<'en' | 'zh', Translation> = {
       knob: "滑块 / 图标",
       empty: "未填 / 右侧",
       width: "进度条宽度",
-      celebration: "满额彩蛋 (可选)",
+      celebration: "完成样式",
       celebrationHint: "完成时显示此内容代替进度条。",
       showPercent: "显示百分比数字",
       none: "无"
@@ -160,7 +160,8 @@ export const TRANSLATIONS: Record<'en' | 'zh', Translation> = {
     guide: {
       title: "使用说明:",
       steps: [
-        "确保你的 Notion 数据库包含配置中定义的属性（默认：“Done”和“Target”）。",
+        "将 Notion 数据库中作分子和分母的属性名分别填入",
+        "设置样式",
         "复制生成的公式代码。",
         "在 Notion 中添加一个新的 Formula (公式) 属性。",
         "粘贴代码并保存！✨"
