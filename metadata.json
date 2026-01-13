@@ -1,0 +1,5 @@
+{
+  "name": "Progress Lab",
+  "description": "A cute, no-code tool to generate aesthetic progress bar formulas for Notion databases. Customize icons, styles, and colors effortlessly.",
+  "requestFramePermissions": []
+}
