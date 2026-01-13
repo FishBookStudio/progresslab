@@ -1,0 +1,21 @@
+{
+  "name": "Progress Lab - Notion 进度条公式生成器",
+  "short_name": "Progress Lab",
+  "description": "免费在线 Notion 进度条公式生成器",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#f43f5e",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

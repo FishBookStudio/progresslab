@@ -31,7 +31,6 @@ const App: React.FC = () => {
             </div>
             <div>
                 <h1 className="text-xl md:text-2xl font-extrabold text-stone-800 tracking-tight">{t.title}</h1>
-                <p className="text-xs text-stone-500 font-medium">{t.subtitle}</p>
             </div>
           </div>
           <div className="flex items-center gap-2 md:gap-4">

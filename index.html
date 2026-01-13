@@ -1,9 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Progress Lab</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Progress Lab - Notion 进度条公式生成器 | 零代码可视化工具</title>
+    <meta name="title" content="Progress Lab - Notion 进度条公式生成器 | 零代码可视化工具" />
+    <meta name="description" content="免费在线 Notion 进度条公式生成器。无需编程，可视化配置即可生成 Notion 2.0 公式代码。支持多种样式：方块、圆形、爱心、星星等。由 Fishbook Studio 打造，为 Notion 爱好者提供便捷工具。" />
+    <meta name="keywords" content="Notion, 进度条, 公式生成器, Notion公式, Progress Bar, Notion Formula, 零代码工具, Fishbook Studio, 可视化工具, Notion 2.0" />
+    <meta name="author" content="Fishbook Studio" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Chinese" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://progress-lab.fishbookstudio.com/" />
+    <meta property="og:title" content="Progress Lab - Notion 进度条公式生成器" />
+    <meta property="og:description" content="免费在线 Notion 进度条公式生成器。无需编程，可视化配置即可生成 Notion 2.0 公式代码。支持多种样式：方块、圆形、爱心、星星等。" />
+    <meta property="og:image" content="https://progress-lab.fishbookstudio.com/og-image.png" />
+    <meta property="og:site_name" content="Progress Lab" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:locale:alternate" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://progress-lab.fishbookstudio.com/" />
+    <meta name="twitter:title" content="Progress Lab - Notion 进度条公式生成器" />
+    <meta name="twitter:description" content="免费在线 Notion 进度条公式生成器。无需编程，可视化配置即可生成 Notion 2.0 公式代码。" />
+    <meta name="twitter:image" content="https://progress-lab.fishbookstudio.com/og-image.png" />
+    <meta name="twitter:creator" content="@fishbookstudio" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://progress-lab.fishbookstudio.com/" />
+    
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="zh-CN" href="https://progress-lab.fishbookstudio.com/" />
+    <link rel="alternate" hreflang="en" href="https://progress-lab.fishbookstudio.com/en" />
+    <link rel="alternate" hreflang="x-default" href="https://progress-lab.fishbookstudio.com/" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    <link rel="preconnect" href="https://esm.sh" />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <link rel="dns-prefetch" href="https://esm.sh" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#f43f5e" />
+    <meta name="msapplication-TileColor" content="#f43f5e" />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Progress Lab",
+      "alternateName": "Notion 进度条公式生成器",
+      "description": "免费在线 Notion 进度条公式生成器。无需编程，可视化配置即可生成 Notion 2.0 公式代码。",
+      "url": "https://progress-lab.fishbookstudio.com/",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Fishbook Studio",
+        "alternateName": "鳕鱼的笔记研究所",
+        "url": "https://www.notion.so/@fishbookstudio"
+      },
+      "featureList": [
+        "可视化配置进度条样式",
+        "支持多种图标样式（方块、圆形、爱心、星星等）",
+        "实时预览效果",
+        "一键复制公式代码",
+        "适配 Notion 2.0",
+        "零代码操作"
+      ],
+      "screenshot": "https://progress-lab.fishbookstudio.com/og-image.png"
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Progress Lab",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fishbook Studio",
+        "alternateName": "鳕鱼的笔记研究所"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Fishbook Studio",
+      "alternateName": "鳕鱼的笔记研究所",
+      "url": "https://www.notion.so/@fishbookstudio",
+      "logo": "https://progress-lab.fishbookstudio.com/logo.png",
+      "sameAs": [
+        "https://space.bilibili.com/384944410",
+        "https://www.xiaohongshu.com/user/profile/64283cd9000000001102147b"
+      ],
+      "description": "为 Notion 爱好者打造的工具和资源。把复杂的事，交给系统。"
+    }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script>
@@ -59,6 +194,7 @@
   }
 }
 </script>
+<script type="module" src="/index.tsx"></script>
 </head>
   <body class="bg-paper text-stone-800 antialiased selection:bg-rose-200 selection:text-rose-900">
     <div id="root"></div>
