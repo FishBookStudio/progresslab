@@ -42,7 +42,7 @@ export const PRESETS: Preset[] = [
 export const SOCIAL_URLS = {
   bilibili: "https://space.bilibili.com/384944410?spm_id_from=333.1007.0.0",
   xiaohongshu: "https://www.xiaohongshu.com/user/profile/64283cd9000000001102147b?m_source=pwa",
-  wechat: "https://mp.weixin.qq.com/",
+  wechat: "https://mp.weixin.qq.com/s/e1WvmnYBE7paaesM1JmqCw",
   taobao: "https://m.tb.cn/h.7kNnSMiJnFAQPwp",
   xiaohongshuShop: "https://xhslink.com/m/7l8OlKOK6ex",
   notionMarket: "https://www.notion.so/@fishbookstudio",
