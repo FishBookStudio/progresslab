@@ -6,7 +6,12 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     const isProduction = mode === 'production';
     
+    // GitHub Pages 部署在子路径下，需要设置 base
+    // 如果使用自定义域名，可以设置为 '/'
+    const base = process.env.GITHUB_PAGES === 'true' ? '/progresslab/' : '/';
+    
     return {
+      base,
       server: {
         port: 3000,
         host: '0.0.0.0',
